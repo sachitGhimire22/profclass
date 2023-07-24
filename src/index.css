@@ -1,0 +1,44 @@
+.quizContainer{
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  height: 100vh;
+
+}
+.questionBar{
+  background: #eeeeee;
+  border-radius: 12px;
+  margin: 12px;
+  padding: 12px;
+}
+
+.quesTitle{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.answerContainer{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.answerContainer button{
+  margin: 12px;
+  background: navy;
+  color: white;
+}
+
+.answerContainer button:hover{
+  background: white;
+  color: navy !important;
+}
+
+.nxtbtn{
+  background: navy !important;
+  color: white!important;
+  border: 1px solid navy;
+}
+
+.nxtbtn:hover{
+  background: white !important;
+  color: navy !important;
+}
